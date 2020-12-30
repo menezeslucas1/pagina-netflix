@@ -1,9 +1,13 @@
 @media screen and (max-width: 700px){
-    header .container {
+    .header{
         display: flex;
         flex-direction: column;
     }
 
+    .filme-principal .container {
+        width: 100%;
+        background: none;
+    }
 
     .button {
         margin-top: 10px;
